@@ -3,6 +3,12 @@ for developers, as a way to check some development statistics for a project.
 
 Currently it produces HTML output with tables and graphs and pretty JSON.
 
+Run
+===
+```
+python -m gitstats
+```
+
 Requirements
 ============
 - Python (>= 2.6.0)
