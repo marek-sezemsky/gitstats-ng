@@ -5,7 +5,7 @@ import tempfile
 import shutil
 from itertools import repeat
 
-TEST_REPOS = repeat('.', 8)
+TEST_REPOS = list(repeat('.', 8))
 
 class GitStatsTest(unittest.TestCase):
     def setUp(self):
@@ -14,7 +14,7 @@ class GitStatsTest(unittest.TestCase):
         self.destdir = tempfile.mkdtemp()
 
     def test_selfcheck(self):
-        self.stats.run(self.sourcedirs, self.destdir)
+        self.stats.run(self.sourcedirs + [self.destdir])
 
     def tearDown(self):
         # Change to self.sourcedirs and behold!
