@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # Copyright (c) 2007-2014 Heikki Hokkanen <hoxu@users.sf.net> & others (see doc/AUTHOR)
 # GPLv2 / GPLv3
+from __future__ import print_function, with_statement
 import datetime
 import getopt
 import glob
