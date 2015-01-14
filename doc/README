@@ -1,7 +1,13 @@
 gitstats is a statistics generator for git repositories.  It is mostly intended
 for developers, as a way to check some development statistics for a project.
 
-Currently it produces only HTML output with tables and graphs.
+Currently it produces HTML output with tables and graphs and pretty JSON.
+
+Run
+===
+```
+python -m gitstats
+```
 
 Requirements
 ============
@@ -15,6 +21,10 @@ The above versions are not absolute requirements; older versions may work also.
 Recommended
 ===========
 - Lots of memory and fast disk for large projects
+
+Tested
+======
+Travis CI for Python 2.7 - 3.4 [![Build Status](https://travis-ci.org/marek-sezemsky/gitstats.svg)](https://travis-ci.org/marek-sezemsky/gitstats)
 
 Contributions
 =============
