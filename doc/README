@@ -16,6 +16,10 @@ Recommended
 ===========
 - Lots of memory and fast disk for large projects
 
+Tested
+======
+Travis CI for Python 2.7 - 3.4 [![Build Status](https://travis-ci.org/marek-sezemsky/gitstats.svg)](https://travis-ci.org/marek-sezemsky/gitstats)
+
 Contributions
 =============
 Patches should be sent under "GPLv2 or later" license - this will allow
