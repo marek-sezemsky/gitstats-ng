@@ -4,12 +4,13 @@ import gitstats
 import tempfile
 import shutil
 from itertools import repeat
+from gitstats import GitStats
 
 TEST_REPOS = list(repeat('.', 8))
 
 class GitStatsTest(unittest.TestCase):
     def setUp(self):
-        self.stats = gitstats.GitStats()
+        self.stats = GitStats()
         self.sourcedirs = TEST_REPOS
         self.destdir = tempfile.mkdtemp()
 
