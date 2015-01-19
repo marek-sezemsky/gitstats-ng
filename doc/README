@@ -1,11 +1,22 @@
-gitstats is a statistics generator for git repositories.  It is mostly intended
-for developers, as a way to check some development statistics for a project.
+[gitstats](https://github.com/hoxu/gitstats) is a statistics generator for git
+repositories.  It is mostly intended for developers, as a way to check some
+development statistics for a project.
 
-Currently it produces HTML output with tables and graphs and pretty JSON.
+Currently it produces HTML output (with tables and graphs) and pretty JSON.
 
-Run
+Development fork [gitstats-ng](https://github.com/marek-sezemsky/gitstats-ng)
+accept patches which improve general functionality of the project, focusing on
+Python 3.x support, tests and more frequent bugfixes.
+
+[![Build Status](https://travis-ci.org/marek-sezemsky/gitstats-ng.svg)](https://travis-ci.org/marek-sezemsky/gitstats-ng)
+
+
+Install and run
 ===
 ```
+git clone https://github.com/marek-sezemsky/gitstats-ng
+cd gitstats-ng
+pip install .
 python -m gitstats
 ```
 
